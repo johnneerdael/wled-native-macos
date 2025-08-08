@@ -1,8 +1,9 @@
 
 import Foundation
 
+@MainActor
 class DeviceStateFactory {
-    static var shared = DeviceStateFactory()
+    static let shared = DeviceStateFactory()
     
     private let dispatchQueue = DispatchQueue(label: "deviceStateFactory", attributes: .concurrent)
     private var allDeviceStates: Dictionary<String, DeviceState> = [:]

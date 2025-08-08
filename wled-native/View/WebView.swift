@@ -89,8 +89,15 @@ struct WebView: NSViewRepresentable {
         }
         
         func download(_ download: WKDownload, decideDestinationUsing response: URLResponse, suggestedFilename: String, completionHandler: @escaping (URL?) -> Void) {
-            filePathDestination = getDownloadPath(suggestedFilename as NSString)
-            completionHandler(filePathDestination)
+            if let path = getDownloadPath(suggestedFilename as NSString) {
+                filePathDestination = path
+                completionHandler(path)
+            } else {
+                // Fallback to a temporary location if we couldn't compute a path
+                let fallback = FileManager.default.temporaryDirectory.appendingPathComponent(suggestedFilename)
+                filePathDestination = fallback
+                completionHandler(fallback)
+            }
         }
         
         func webView(_ webView: WKWebView, navigationAction: WKNavigationAction, didBecome download: WKDownload) {
@@ -101,8 +108,8 @@ struct WebView: NSViewRepresentable {
             download.delegate = self
         }
         
-        func download(didFailWithError: Error, resumeData: Data?) {
-            print("Failed to download: \(didFailWithError)")
+        func download(_ download: WKDownload, didFailWithError error: Error, resumeData: Data?) {
+            print("Failed to download: \(error)")
         }
         
         func webView(_ webView: WKWebView, createWebViewWith configuration: WKWebViewConfiguration, for navigationAction: WKNavigationAction, windowFeatures: WKWindowFeatures) -> WKWebView? {

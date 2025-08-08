@@ -35,8 +35,8 @@
 		C9767DDE2AF9F435002F3EA9 /* DeviceAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9767DDD2AF9F435002F3EA9 /* DeviceAddView.swift */; };
 		C9767DE02AFA04E0002F3EA9 /* DeviceEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9767DDF2AFA04E0002F3EA9 /* DeviceEditView.swift */; };
 		C9767DE32AFAE65C002F3EA9 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9767DE22AFAE65C002F3EA9 /* FetchedObjects.swift */; };
-		C9SETTINGS1234567890ABCD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9SETTINGS1234567890ABCE /* SettingsView.swift */; };
-		C9LIQUID12345678901234CD /* LiquidGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9LIQUID12345678901234CE /* LiquidGlassView.swift */; };
+		C9SETTINGS1234567890ABCD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA98F10F76B414BBEA96A32 /* SettingsView.swift */; };
+		C9LIQUID12345678901234CD /* LiquidGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856FD63B8384460B80DD8F68 /* LiquidGlassView.swift */; };
 		C9PERMISSIONS1234567890CD /* PermissionsSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9PERMISSIONS1234567890CE /* PermissionsSetupView.swift */; };
 		C9PERMMANAGER1234567890CD /* PermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9PERMMANAGER1234567890CE /* PermissionsManager.swift */; };
 		C9SUBNETSERVICE123456789CD /* SubnetDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9SUBNETSERVICE123456789CE /* SubnetDiscoveryService.swift */; };
@@ -100,8 +100,8 @@
 		C9767DDD2AF9F435002F3EA9 /* DeviceAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAddView.swift; sourceTree = "<group>"; };
 		C9767DDF2AFA04E0002F3EA9 /* DeviceEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEditView.swift; sourceTree = "<group>"; };
 		C9767DE22AFAE65C002F3EA9 /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
-		C9SETTINGS1234567890ABCE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		C9LIQUID12345678901234CE /* LiquidGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassView.swift; sourceTree = "<group>"; };
+		EEA98F10F76B414BBEA96A32 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		856FD63B8384460B80DD8F68 /* LiquidGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassView.swift; sourceTree = "<group>"; };
 		C97CD4972B25000300420E93 /* wled_native_data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wled_native_data.xcdatamodel; sourceTree = "<group>"; };
 		C97CD4992B2519BC00420E93 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 		C97CD49C2B269F3000420E93 /* GithubAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAsset.swift; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 				C9767DE22AFAE65C002F3EA9 /* FetchedObjects.swift */,
 				C95B4A822B3E3F540081F4C5 /* BackgroundBlurView.swift */,
 				C99BAC2D2B735875009BC476 /* ToolbarBadge.swift */,
-				C9LIQUID12345678901234CE /* LiquidGlassView.swift */,
+				856FD63B8384460B80DD8F68 /* LiquidGlassView.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 				C9767DDF2AFA04E0002F3EA9 /* DeviceEditView.swift */,
 				C948F4942B3D1C480092C4B1 /* DeviceUpdateDetails.swift */,
 				C948F4992B3E2B590092C4B1 /* DeviceUpdateInstalling.swift */,
-				C9SETTINGS1234567890ABCE /* SettingsView.swift */,
+				EEA98F10F76B414BBEA96A32 /* SettingsView.swift */,
 				C9PERMISSIONS1234567890CE /* PermissionsSetupView.swift */,
 				C9SUBNETVIEW1234567890ACE /* SubnetDiscoveryView.swift */,
 			);
@@ -661,7 +661,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "2";
 			};
 			name = Debug;
@@ -689,7 +689,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "2";
 			};
 			name = Release;

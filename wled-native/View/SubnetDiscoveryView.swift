@@ -167,13 +167,13 @@ struct SubnetDiscoveryView: View {
             .padding()
             .navigationTitle("Subnet Discovery")
             .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
+                ToolbarItem(placement: .primaryAction) {
                     Button("Close") {
                         dismiss()
                     }
                 }
                 
-                ToolbarItem(placement: .navigationBarTrailing) {
+                ToolbarItem(placement: .secondaryAction) {
                     Button("Help") {
                         showingHelp = true
                     }
@@ -273,35 +273,29 @@ struct SubnetDiscoveryHelpView: View {
                             .font(.headline)
                         
                         VStack(alignment: .leading, spacing: 12) {
-                            ForEach([
-                                ("CIDR Notation", "192.168.1.0/24", "Scans all IPs from 192.168.1.1 to 192.168.1.254"),
-                                ("IP Range", "192.168.1.1-192.168.1.50", "Scans IPs from 192.168.1.1 to 192.168.1.50"),
-                                ("Wildcard", "192.168.1.*", "Scans all IPs from 192.168.1.1 to 192.168.1.254"),
-                                ("Single IP", "192.168.1.100", "Checks only the specified IP address")
-                            ], id: \.0) { format in
-                                VStack(alignment: .leading, spacing: 4) {
-                                    HStack {
-                                        Text(format.0)
-                                            .font(.subheadline)
-                                            .fontWeight(.medium)
-                                        Spacer()
-                                        Text(format.1)
-                                            .font(.caption)
-                                            .fontFamily(.monospaced)
-                                            .padding(.horizontal, 6)
-                                            .padding(.vertical, 2)
-                                            .background(Color(NSColor.controlBackgroundColor))
-                                            .cornerRadius(4)
-                                    }
-                                    Text(format.2)
-                                        .font(.caption)
-                                        .foregroundColor(.secondary)
-                                }
-                                .padding()
-                                .background(Color(NSColor.controlBackgroundColor))
-                                .cornerRadius(8)
-                            }
+                            HelpFormatView(
+                                title: "CIDR Notation",
+                                example: "192.168.1.0/24",
+                                description: "Scans all IPs from 192.168.1.1 to 192.168.1.254"
+                            )
+                            HelpFormatView(
+                                title: "IP Range",
+                                example: "192.168.1.1-192.168.1.50",
+                                description: "Scans IPs from 192.168.1.1 to 192.168.1.50"
+                            )
+                            HelpFormatView(
+                                title: "Wildcard",
+                                example: "192.168.1.*",
+                                description: "Scans all IPs from 192.168.1.1 to 192.168.1.254"
+                            )
+                            HelpFormatView(
+                                title: "Single IP",
+                                example: "192.168.1.100",
+                                description: "Checks only the specified IP address"
+                            )
                         }
+                        .background(Color(NSColor.controlBackgroundColor))
+                        .cornerRadius(8)
                     }
                     
                     VStack(alignment: .leading, spacing: 15) {
@@ -320,7 +314,7 @@ struct SubnetDiscoveryHelpView: View {
                                     Spacer()
                                     Text(network.1)
                                         .font(.caption)
-                                        .fontFamily(.monospaced)
+                                        .font(.system(.caption, design: .monospaced))
                                         .foregroundColor(.secondary)
                                 }
                                 .padding(.vertical, 4)
@@ -377,6 +371,36 @@ struct SubnetDiscoveryHelpView: View {
         }
         .frame(width: 500, height: 600)
         .sheetGlass()
+    }
+}
+ 
+struct HelpFormatView: View {
+    let title: String
+    let example: String
+    let description: String
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                Text(title)
+                    .font(.subheadline)
+                    .fontWeight(.medium)
+                Spacer()
+                Text(example)
+                    .font(.caption)
+                    .font(.system(.caption, design: .monospaced))
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 2)
+                    .background(Color(NSColor.controlBackgroundColor))
+                    .cornerRadius(4)
+            }
+            Text(description)
+                .font(.caption)
+                .foregroundColor(.secondary)
+        }
+        .padding()
+        .background(Color(NSColor.controlBackgroundColor).opacity(0.5))
+        .cornerRadius(8)
     }
 }
 

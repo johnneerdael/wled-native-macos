@@ -1,6 +1,7 @@
 import Foundation
 
 extension Device {
+    @MainActor
     var requestManager: WLEDRequestManager {
         get {
             return DeviceStateFactory.shared.getStateForDevice(self).getRequestManager(device: self)
@@ -42,6 +43,7 @@ extension Device {
     
     // MARK: - macOS Enhancement: Device verification for discovery
     // Static method for device verification during discovery
+    @MainActor
     static func verifyDevice(at address: String) async -> Info? {
         // Create a temporary device for verification purposes
         let viewContext = PersistenceController.shared.container.viewContext

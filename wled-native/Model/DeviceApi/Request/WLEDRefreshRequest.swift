@@ -10,9 +10,10 @@ class WLEDRefreshRequest: WLEDRequest {
     }
     
     // Special initializer for device verification during discovery
+    @MainActor
     init() {
-        // For verification, we'll use a temporary context
-        self.context = PersistenceController.shared.container.viewContext
+        // For verification, use a background context to avoid main-actor isolation and UI context contention
+        self.context = PersistenceController.shared.container.newBackgroundContext()
     }
     
     func setInfo(info: Info) async {
