@@ -1,0 +1,122 @@
+/* No comment provided by engineer. */
+"(Hidden)" = "(Versteckt)";
+
+"(Offline)" = "(Offline)";
+
+"Menu" = "Menü";
+
+/* No comment provided by engineer. */
+"(New Device)" = "(Neues Gerät)";
+
+/* No comment provided by engineer. */
+"Done" = "Fertig";
+
+/* No comment provided by engineer. */
+"Add New Device" = "Neues Gerät Hinzufügen";
+
+/* No comment provided by engineer. */
+"Delete" = "Löschen";
+
+/* No comment provided by engineer. */
+"Save" = "Speichern";
+
+"Cancel" = "Abbrechen";
+
+/* No comment provided by engineer. */
+"Edit" = "Bearbeiten";
+
+/* No comment provided by engineer. */
+"Edit Device" = "Gerät Bearbeiten";
+
+/* No comment provided by engineer. */
+"Manage Devices" = "Geräte Verwalten";
+
+/* No comment provided by engineer. */
+"New Device" = "Neues Gerät";
+
+/* No comment provided by engineer. */
+"Refresh" = "Aktualisieren";
+
+/* No comment provided by engineer. */
+"Pull to refresh" = "Zum Aktualisieren ziehen";
+
+/* No comment provided by engineer. */
+"Show Hidden Devices" = "Versteckte Geräte Anzeigen";
+
+"Hide Hidden Devices" = "Versteckte Geräte Ausblenden";
+
+"Show Offline Devices" = "Offline-Geräte Anzeigen";
+
+"Hide Offline Devices" = "Offline-Geräte Ausblenden";
+
+"Turn On/Off" = "Ein/Aus";
+
+"IP Address or URL" = "IP-Adresse oder URL";
+
+"Custom Name" = "Benutzerdefinierter Name";
+
+"Hide this Device" = "Dieses Gerät Verstecken";
+
+"Online Devices" = "Online-Geräte";
+
+"Offline Devices" = "Offline-Geräte";
+
+"Select A Device" = "Gerät Auswählen";
+
+"WLED Documentation" = "WLED-Dokumentation";
+
+"Controls" = "Steuerung";
+
+"Settings" = "Einstellungen";
+
+"Update Channel" = "Update-Kanal";
+
+"Stable" = "Stabil";
+
+"Beta" = "Beta";
+
+"Your device is up to date" = "Ihr Gerät ist auf dem neuesten Stand";
+
+"Version %@" = "Version %@";
+
+"unknown_version" = "[unbekannt]";
+
+"Check for Update" = "Nach Update Suchen";
+
+"Checking for Updates" = "Suche nach Updates";
+
+"Update Available" = "Update Verfügbar";
+
+"From %@ to %@" = "Von %@ zu %@";
+
+"See Update" = "Update Anzeigen";
+
+"Skip This Version" = "Diese Version Überspringen";
+
+"Are you sure?" = "Sind Sie sicher?";
+
+"Install" = "Installieren";
+
+"Install Now" = "Jetzt Installieren";
+
+"update_disclaimer" = "Sie sind dabei, eine neue Version von WLED auf Ihrem Gerät zu installieren. Wenn Sie zuvor eine benutzerdefinierte Version installiert hatten, könnten Sie einige Funktionalitäten verlieren (zum Beispiel, wenn Sie Usermods aktiviert hatten, funktionieren sie möglicherweise nicht mehr). \n\nWenn jemand dieses Gerät für Sie installiert hat, sollten Sie vielleicht fragen, ob es in Ordnung ist, das Gerät auf eine neue Version zu aktualisieren. \n\nWLED und WLED Native sind nicht verantwortlich, wenn durch ein Update etwas schiefgeht.";
+
+"Updating %@" = "Aktualisiere %@";
+
+"Starting Up" = "Starten";
+
+"Please do not close the app or turn off the device." = "Bitte schließen Sie die App nicht und schalten Sie das Gerät nicht aus.";
+
+"No Compatible Version Found" = "Keine Kompatible Version Gefunden";
+
+"no_compatible_version_details" = "Es konnte keine Version gefunden werden, die mit Ihrem Gerät kompatibel ist. Sie müssen Ihr Gerät manuell aktualisieren.";
+
+"Downloading Version" = "Version Herunterladen";
+
+"Installing Update" = "Update Installieren";
+
+"Update Completed!" = "Update Abgeschlossen!";
+
+"Update Failed" = "Update Fehlgeschlagen";
+
+"update_failed_details" = "Ihr Gerät ist möglicherweise PIN-geschützt oder mit einem Passwort gesperrt. Überprüfen Sie Ihre Einstellungen.";

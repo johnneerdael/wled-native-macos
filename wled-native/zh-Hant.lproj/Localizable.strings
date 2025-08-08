@@ -1,0 +1,121 @@
+/* No comment provided by engineer. */
+"(Hidden)" = "（隱藏）";
+
+"(Offline)" = "（離線）";
+
+"Menu" = "選單";
+
+/* No comment provided by engineer. */
+"(New Device)" = "（新裝置）";
+
+/* No comment provided by engineer. */
+"Done" = "完成";
+
+/* No comment provided by engineer. */
+"Add New Device" = "新增裝置";
+
+/* No comment provided by engineer. */
+"Delete" = "刪除";
+
+"Save" = "儲存";
+
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Edit" = "編輯";
+
+/* No comment provided by engineer. */
+"Edit Device" = "編輯裝置";
+
+/* No comment provided by engineer. */
+"Manage Devices" = "管理裝置";
+
+/* No comment provided by engineer. */
+"New Device" = "新裝置";
+
+/* No comment provided by engineer. */
+"Refresh" = "重新整理";
+
+/* No comment provided by engineer. */
+"Pull to refresh" = "下拉重新整理";
+
+/* No comment provided by engineer. */
+"Show Hidden Devices" = "顯示隱藏的裝置";
+
+"Hide Hidden Devices" = "隱藏隱藏的裝置";
+
+"Show Offline Devices" = "顯示離線裝置";
+
+"Hide Offline Devices" = "隱藏離線裝置";
+
+"Turn On/Off" = "開啟/關閉";
+
+"IP Address or URL" = "IP 位址或 URL";
+
+"Custom Name" = "自訂名稱";
+
+"Hide this Device" = "隱藏此裝置";
+
+"Online Devices" = "線上裝置";
+
+"Offline Devices" = "離線裝置";
+
+"Select A Device" = "選擇裝置";
+
+"WLED Documentation" = "WLED 說明文件";
+
+"Controls" = "控制";
+
+"Settings" = "設定";
+
+"Update Channel" = "更新通道";
+
+"Stable" = "穩定版";
+
+"Beta" = "測試版";
+
+"Your device is up to date" = "您的裝置已是最新版本";
+
+"Version %@" = "版本 %@";
+
+"unknown_version" = "[未知]";
+
+"Check for Update" = "檢查更新";
+
+"Checking for Updates" = "正在檢查更新";
+
+"Update Available" = "有可用更新";
+
+"From %@ to %@" = "從 %@ 到 %@";
+
+"See Update" = "查看更新";
+
+"Skip This Version" = "跳過此版本";
+
+"Are you sure?" = "您確定嗎？";
+
+"Install" = "安裝";
+
+"Install Now" = "立即安裝";
+
+"update_disclaimer" = "您即將在裝置上安裝新版本的 WLED。如果您目前安裝的是自訂版本，您可能會失去某些功能（例如，如果您有 usermods，它們可能無法正常工作）。\n\n如果有人為您安裝了此裝置，您可能需要詢問他們是否可以安裝此新版本。\n\nWLED 和 WLED Native 不對因更新而導致的任何功能故障負責。";
+
+"Updating %@" = "正在更新 %@";
+
+"Starting Up" = "正在啟動";
+
+"Please do not close the app or turn off the device." = "請勿關閉應用程式或關閉裝置。";
+
+"No Compatible Version Found" = "找不到相容版本";
+
+"no_compatible_version_details" = "找不到與您裝置相容的版本。您需要手動更新您的裝置。";
+
+"Downloading Version" = "正在下載版本";
+
+"Installing Update" = "正在安裝更新";
+
+"Update Completed!" = "更新完成！";
+
+"Update Failed" = "更新失敗";
+
+"update_failed_details" = "您的裝置可能受到 PIN 碼保護或被密碼鎖定。請檢查您的設定。";

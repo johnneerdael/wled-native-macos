@@ -1,0 +1,122 @@
+/* No comment provided by engineer. */
+"(Hidden)" = "(Verborgen)";
+
+"(Offline)" = "(Offline)";
+
+"Menu" = "Menu";
+
+/* No comment provided by engineer. */
+"(New Device)" = "(Nieuw Apparaat)";
+
+/* No comment provided by engineer. */
+"Done" = "Klaar";
+
+/* No comment provided by engineer. */
+"Add New Device" = "Nieuw Apparaat Toevoegen";
+
+/* No comment provided by engineer. */
+"Delete" = "Verwijderen";
+
+/* No comment provided by engineer. */
+"Save" = "Opslaan";
+
+"Cancel" = "Annuleren";
+
+/* No comment provided by engineer. */
+"Edit" = "Bewerken";
+
+/* No comment provided by engineer. */
+"Edit Device" = "Apparaat Bewerken";
+
+/* No comment provided by engineer. */
+"Manage Devices" = "Apparaten Beheren";
+
+/* No comment provided by engineer. */
+"New Device" = "Nieuw Apparaat";
+
+/* No comment provided by engineer. */
+"Refresh" = "Vernieuwen";
+
+/* No comment provided by engineer. */
+"Pull to refresh" = "Trek om te vernieuwen";
+
+/* No comment provided by engineer. */
+"Show Hidden Devices" = "Verborgen Apparaten Tonen";
+
+"Hide Hidden Devices" = "Verborgen Apparaten Verbergen";
+
+"Show Offline Devices" = "Offline Apparaten Tonen";
+
+"Hide Offline Devices" = "Offline Apparaten Verbergen";
+
+"Turn On/Off" = "Aan/Uit";
+
+"IP Address or URL" = "IP-adres of URL";
+
+"Custom Name" = "Aangepaste Naam";
+
+"Hide this Device" = "Dit Apparaat Verbergen";
+
+"Online Devices" = "Online Apparaten";
+
+"Offline Devices" = "Offline Apparaten";
+
+"Select A Device" = "Selecteer een Apparaat";
+
+"WLED Documentation" = "WLED Documentatie";
+
+"Controls" = "Bedieningselementen";
+
+"Settings" = "Instellingen";
+
+"Update Channel" = "Update Kanaal";
+
+"Stable" = "Stabiel";
+
+"Beta" = "Beta";
+
+"Your device is up to date" = "Uw apparaat is up-to-date";
+
+"Version %@" = "Versie %@";
+
+"unknown_version" = "[onbekend]";
+
+"Check for Update" = "Controleren op Updates";
+
+"Checking for Updates" = "Controleren op Updates";
+
+"Update Available" = "Update Beschikbaar";
+
+"From %@ to %@" = "Van %@ naar %@";
+
+"See Update" = "Update Bekijken";
+
+"Skip This Version" = "Deze Versie Overslaan";
+
+"Are you sure?" = "Weet u het zeker?";
+
+"Install" = "Installeren";
+
+"Install Now" = "Nu Installeren";
+
+"update_disclaimer" = "U staat op het punt om een nieuwe versie van WLED op uw apparaat te installeren. Als u eerder een aangepaste versie had geïnstalleerd, kunt u mogelijk enkele functionaliteiten verliezen (bijvoorbeeld, als u usermods had ingeschakeld, werken ze mogelijk niet meer). \n\nAls iemand dit apparaat voor u heeft geïnstalleerd, moet u misschien vragen of het oké is om het apparaat bij te werken naar een nieuwe versie. \n\nWLED en WLED Native zijn niet verantwoordelijk als er iets misgaat door een update.";
+
+"Updating %@" = "Updaten %@";
+
+"Starting Up" = "Opstarten";
+
+"Please do not close the app or turn off the device." = "Sluit de app niet af en schakel het apparaat niet uit.";
+
+"No Compatible Version Found" = "Geen Compatibele Versie Gevonden";
+
+"no_compatible_version_details" = "Er kon geen versie worden gevonden die compatibel is met uw apparaat. U moet uw apparaat handmatig bijwerken.";
+
+"Downloading Version" = "Versie Downloaden";
+
+"Installing Update" = "Update Installeren";
+
+"Update Completed!" = "Update Voltooid!";
+
+"Update Failed" = "Update Mislukt";
+
+"update_failed_details" = "Uw apparaat is mogelijk PIN-beveiligd of vergrendeld met een wachtwoord. Controleer uw instellingen.";
